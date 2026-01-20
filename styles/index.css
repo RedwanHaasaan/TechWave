@@ -22,8 +22,8 @@
   .border-custom{
     border-bottom: 1px solid rgba(65, 37, 103, 1);
   }
-  .container{
-    padding: 120px 200px ;
+  .card-bg{
+    background-color: rgba(53, 17, 101, 0.4);
   }
   /* Mobile Menu Toggle */
   #menu-toggle {
