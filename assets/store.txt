@@ -1,0 +1,39 @@
+<nav>
+        <div>
+            <div>
+                <a href="#">Tech<span>Wave</span></a>
+            </div>
+            <div>
+                <ul>
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>Host</li>
+                </ul>
+            </div>
+            <div>
+                <button>
+                    <span>Subscribe</span>
+                    <img src="./assets/ArrowRight.png" alt="Arrow Right Icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+@layer utilities{
+    .bg-primary{
+        background-color: #1A0B2E;
+    }
+    .bg-secondary{
+        background-color: #230E3D;
+    }
+    .bg-accent{
+        background-color: #1A0B2E;
+    }
+    .bg-gradient{
+        background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    }
+    .text-secendary{
+        color: #00FF88;
+    }
+}
