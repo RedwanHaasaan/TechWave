@@ -19,7 +19,10 @@
   .text-secendary {
     color: #00ff88;
   }
-  /* Mobile Menu Toggle (CSS Only) */
+  .border-custom{
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+  }
+  /* Mobile Menu Toggle */
   #menu-toggle {
     display: none;
   }
@@ -36,5 +39,52 @@
     transition:
       max-height 0.3s ease-in-out,
       opacity 0.3s ease-in-out;
+  }
+
+  /* Hero Section */
+.hero-bg {
+    background-image: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .box-shdow-custom{
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+  }
+  /* Ensure background shows waves on mobile */
+  @media (max-width: 576px) {
+    .hero-bg {
+      background-size: cover;
+      background-position: center center;
+      min-height: 70vh;
+    }
+    .text-responsive{
+      padding: 0px 20px 0px 20px;
+      min-width: 75%;
+      font-size: 14px;
+      margin: 0 auto;
+    }
+  }
+@media (min-width:455px) and (max-width:576px) {
+  .text-responsive{
+      font-size: 16px;
+      max-width: 75%;
+    }
+  }
+ @media (min-width: 577px) and (max-width: 992px) {
+    .hero-bg {
+      background-size: cover;
+      background-position: center center;
+      min-height: 85vh;
+    }
+  }
+
+  @media (min-width: 993px) {
+    .hero-bg {
+      background-size: cover;
+      background-position: center center;
+      min-height: 100vh;
+    }
   }
 }

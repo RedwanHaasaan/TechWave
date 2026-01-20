@@ -11,7 +11,8 @@
 </head>
 
 <body>
-  <nav class="bg-accent">
+  <!-- Navbar -->
+  <nav class="bg-accent sticky top-0 z-50 border-custom">
     <div
       class="flex items-center justify-between px-5 sm:px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-48 py-4 max-w-screen-2xl mx-auto">
       <!-- Logo -->
@@ -64,6 +65,39 @@
       </ul>
     </div>
   </nav>
+  <!-- Header Section -->
+  <header class="hero-bg bg-height flex flex-col items-center justify-center">
+          <div class="relative mb-8">
+            <div class="relative w-48 h-48 md:w-62 md:h-62 lg:w-72 lg:h-72 xl:w-80 xl:h-80 2xl:w-[550px] 2xl:h-[550px]">
+              <img
+                src="./assets/hero-circle.png"
+                alt="Podcast Circle"
+                class="w-full h-full rounded-full absolute z-10 top-6 left-0 lg:top-0 2xl:-top-15"
+              />
+              <img
+                src="./assets/microphone.png"
+                alt="Microphone"
+                class="absolute top-30 md:top-37 lg:top-35 xl:top-35 2xl:top-50 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-24 md:w-24 md:h-32 lg:w-28 lg:h-38 xl:w-32 xl:h-44 2xl:w-52 2xl:h-64 z-20"
+              />
+              <span class="px-2 py-1 md:text-lg md:py-2 md:px-3 lg:px-4 lg:py-2 2xl:px-7 2xl:py-3 text-sm xl:text-lg 2xl:text-xl font-semibold bg-[#00FF88] rounded-full absolute top-11 right-3 md:top-11 md:right-5 lg:top-8 lg:right-5 xl:right-7 2xl:right-12 2xl:top-2 transform translate-x-1/2 -translate-y-1/2 box-shdow-custom z-30"
+                >NEW</span
+              >
+            </div>
+          </div>
+          <div class="flex flex-col gap-5">
+            <h1 class="text-4xl text-center font-extrabold text-white">TechWave</h1>
+            <p class="text-center text-gray-300 font-normal text-responsive">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+            <div class="flex flex-rows gap-2 justify-center px-1">
+              <a href="#" class="flex flex-row gap-1 items-center px-2 py-2 md:px-4 bg-gradient rounded-full justify-center">
+                <img src="./assets/line-md_spotify.png" alt="Spotify">
+                <span class="text-white">Listen On Spotify</span>
+              </a>
+              <a href="#" class="flex flex-row gap-1 items-center px-4 py-2 border rounded-full border-green-400">
+                <img src="./assets/message.png" alt="Message">
+                <span class="text-green-400 text-base font-semibold">Subscribe</span>
+              </a>
+            </div>
+          </div>
+  </header>
 </body>
-
 </html>
